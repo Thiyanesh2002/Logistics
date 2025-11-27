@@ -8,4 +8,4 @@ RUN npm run build
 # Stage 2: Serve with NGINX
 FROM nginx:alpine
 COPY --from=build /app/dist /usr/share/nginx/html
-EXPOSE 83
+EXPOSE 82
